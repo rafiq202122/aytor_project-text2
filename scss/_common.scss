@@ -1,0 +1,42 @@
+
+//* VARIABALES
+$primaryFont: 'Josefin Sans', sans-serif;
+$secondaryFont: 'Roboto', sans-serif;
+$primaryColor:#FF6F61;
+$secondaryColor:#11161E;
+$thirdColor:#151A32;
+
+//* VARIABLES ENDS
+
+
+//* COMMON CSS STARTS
+
+//* FONTS IMPORT
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;600;700&family=Roboto:wght@400;700&display=swap');
+//* FONTS IMPORT ENDS
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box
+}
+
+body{
+    font-family: $primaryFont;
+}
+
+ul,ol{
+    list-style: none;
+
+    
+}
+a{
+    text-decoration: none;
+}
+h1,h2,h3,h4,h5,h6,ul,span,ol,p,a{
+    margin: 0;
+    padding: 0;
+}
+
+//* COMMON CSS ENDS
+
